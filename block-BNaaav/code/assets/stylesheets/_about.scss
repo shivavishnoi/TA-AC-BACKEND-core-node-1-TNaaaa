@@ -1,0 +1,64 @@
+.about-us {
+  background-color: $primary;
+  color: $secondary;
+
+  h3 {
+    font-weight: 600;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+// motto
+
+.motto {
+
+  h4 {
+    color: $tertiary;
+    font-weight: 500;
+  }
+
+  i {
+    display: inline-block;
+    color: $tertiary;
+    font-size: 3rem;
+    margin-right: 1.5rem;
+  }
+
+  p {
+    color: $text-gray;
+    padding: 0.5rem 0;
+  }
+
+  &-text>div {
+    margin-bottom: 1rem;
+  }
+}
+
+// team
+
+.team {
+  background-color: $background;
+
+  figure {
+    background-color: $secondary;
+    font-size: 1.2rem;
+  }
+
+  span {
+    display: block;
+    color: $primary;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  figcaption {
+    padding: 1rem 0;
+  }
+}
+
+.solutions {
+  background-color: $secondary;
+}
